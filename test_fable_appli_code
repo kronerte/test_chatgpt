@@ -1,0 +1,67 @@
+rédige la fable de Jean de la Fontaine "Le requin et le poireau"
+
+Il était une fois un requin et un poireau qui vivaient dans la même mer. Le requin, fier de sa force et de sa puissance, se moquait souvent du poireau, qu'il considérait comme faible et insignifiant. Un jour, alors qu'ils se rencontraient dans l'océan, le requin se moqua une fois de plus du poireau.
+
+"Qu'est-ce que tu fais ici, petit poireau? Tu ne devrais pas être dans ton potager, où tu ne serais pas en danger?" demanda le requin.
+
+Le poireau, calmement, répondit: "Je ne suis pas en danger ici, car je suis protégé par mon parfum. Les humains ne veulent pas me manger, car je suis trop fort pour eux. Et toi, requin, tu devrais être plus prudent. Tu es connu pour être un mangeur d'hommes, et les humains te haïssent pour cela. Tu cours un grand danger chaque fois que tu te rapproches de leurs côtes."
+
+Le requin, surpris par la sagesse du poireau, réalisa qu'il avait sous-estimé le petit légume. Il comprit que la force physique n'est pas toujours la plus importante, et que la ruse et la prudence peuvent être des atouts précieux. Depuis ce jour, le requin et le poireau vécurent en paix dans la mer, chacun respectant les forces et les faiblesses de l'autre.
+
+
+
+
+etienne.kronert@inria.fr
+Imagine une start-up qui s'inspire de la fable "le requin et le poireau"
+
+Imaginez une start-up qui s'inspire de la fable "le requin et le poireau" pour créer une entreprise innovante et réussie. La start-up, appelée "PoireauTech", utiliserait la ruse et la prudence du poireau pour développer des produits et des services qui répondent aux besoins des clients tout en évitant les risques et les dangers du marché.
+
+Par exemple, PoireauTech pourrait créer une application de gestion financière qui aide les gens à économiser de l'argent en leur offrant des conseils avisés et des alertes en temps réel sur les meilleures options d'investissement. L'application pourrait également être utilisée pour suivre les dépenses et les revenus, et pour offrir des conseils personnalisés pour atteindre les objectifs financiers des utilisateurs.
+
+En utilisant la sagesse du poireau pour guider ses décisions d'affaires, PoireauTech pourrait devenir une entreprise prospère et respectée dans l'industrie des technologies financières. En plus de créer des produits innovants, l'entreprise pourrait également se démarquer en offrant un service client exceptionnel et en faisant preuve de responsabilité envers l'environnement et la société.
+
+
+
+
+etienne.kronert@inria.fr
+Quel pourrait être le code Python de l'application PoireauTech
+
+Il est difficile de donner un code Python précis pour l'application PoireauTech sans connaître les détails de l'application et de ses fonctionnalités. Cependant, voici un exemple de code Python qui pourrait être utilisé pour créer une application de gestion financière simple:
+
+Copy code
+# Import des bibliothèques nécessaires
+import pandas as pd
+
+# Définition des fonctions de l'application
+
+def enregistrer_depense(categorie, montant):
+  """Enregistre une dépense dans un DataFrame"""
+  global depenses  # Accès à la variable depenses définie en dehors de la fonction
+  depenses = depenses.append({"categorie": categorie, "montant": montant}, ignore_index=True)
+
+def enregistrer_revenu(categorie, montant):
+  """Enregistre un revenu dans un DataFrame"""
+  global revenus  # Accès à la variable revenus définie en dehors de la fonction
+  revenus = revenus.append({"categorie": categorie, "montant": montant}, ignore_index=True)
+
+def afficher_bilan():
+  """Affiche le bilan des dépenses et des revenus"""
+  global depenses, revenus  # Accès aux variables définies en dehors de la fonction
+  print(f"Dépenses: {depenses['montant'].sum()}")
+  print(f"Revenus: {revenus['montant'].sum()}")
+
+# Initialisation des variables
+depenses = pd.DataFrame(columns=["categorie", "montant"])
+revenus = pd.DataFrame(columns=["categorie", "montant"])
+
+# Utilisation de l'application
+enregistrer_depense("Nourriture", 50)
+enregistrer_depense("Loyer", 500)
+enregistrer_revenu("Salaire", 1000)
+afficher_bilan()
+Ce code crée une application qui peut enregistrer des dépenses et des revenus dans des DataFrames, puis afficher un bilan des montants enregistrés. Bien sûr, cet exemple est très simpliste et ne représente pas toutes les fonctionnalités que pourrait avoir l'application PoireauTech.
+
+
+
+Try again
+
