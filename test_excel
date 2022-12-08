@@ -1,0 +1,28 @@
+Formule excel pour calculer la somme d'une colonne pondérer par une autre colonne
+
+Voici comment utiliser une formule Excel pour calculer la somme d'une colonne pondérée par une autre colonne :
+
+Dans la cellule où vous souhaitez afficher le résultat, tapez la formule suivante :
+Copy code
+=SUMPRODUCT(A1:A10,B1:B10)
+Cette formule utilise la fonction SUMPRODUCT pour calculer la somme des produits des valeurs de la colonne A (A1:A10) et de la colonne B (B1:B10).
+
+Appuyez sur Entrée pour afficher le résultat du calcul.
+Note : vous pouvez remplacer les références de colonne (A1:A10, B1:B10) par les références de cellules de votre choix, en fonction des données de votre feuille de calcul.
+
+
+
+
+etienne.kronert@inria.fr
+Formule excel pour calculer la somme d'une colonne pondérer par une autre colonne
+en incluant uniquement les ligne telles que la date précède le premier janvier 2021
+
+Voici comment utiliser une formule Excel pour calculer la somme d'une colonne pondérée par une autre colonne, en incluant uniquement les lignes dont la date précède le premier janvier 2021 :
+
+Dans la cellule où vous souhaitez afficher le résultat, tapez la formule suivante :
+Copy code
+=SUMPRODUCT(A1:A10,B1:B10,(C1:C10<DATE(2021,1,1)))
+Cette formule utilise la fonction SUMPRODUCT pour calculer la somme des produits des valeurs de la colonne A (A1:A10) et de la colonne B (B1:B10), pour les lignes où la date dans la colonne C (C1:C10) est inférieure au premier janvier 2021 (DATE(2021,1,1)).
+
+Appuyez sur Entrée pour afficher le résultat du calcul.
+Note : vous pouvez remplacer les références de colonne (A1:A10, B1:B10, C1:C10) et la date de comparaison (DATE(2021,1,1)) par les références de cellules de votre choix, en fonction des données de votre feuille de calcul.
