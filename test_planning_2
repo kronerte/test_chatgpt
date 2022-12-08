@@ -1,0 +1,66 @@
+Tu as a ta disposition:
+1) Une procédure d'ouverture de porte
+2) Une carte de la maison
+3) Une méthode pour récupérer un objet
+4) Un algorithme de reconnaissance d'objet
+5) Des jambes pour se déplacer entre deux endroit
+6) Un atlas de géographie
+7) Une calculatrice
+Je suis dans mon canapé, dans le salon. Je te demande, "peux tu aller me cherche une bière qui se trouve dans le frigo, dans la cuisine."
+Donne moi le plan d'action qui peut permettre de réaliser cette requète avec ce que tu as à ta disposition.
+(n'exécute pas le plan)
+
+Utiliser la procédure d'ouverture de porte pour ouvrir la porte du salon qui mène à la cuisine.
+Utiliser les jambes pour se déplacer de la pièce du salon à la cuisine en suivant les instructions de la carte de la maison.
+Une fois dans la cuisine, utiliser la méthode pour récupérer un objet pour ouvrir le frigo et récupérer une bière.
+Si on ne sait pas où se trouve la bière dans le frigo, utiliser l'algorithme de reconnaissance d'objet pour localiser la bière.
+Fermer le frigo et retourner dans le salon en utilisant les jambes et la carte de la maison.
+Boire la bière. (Note: cette étape n'est pas indispensable pour répondre à la requête, mais elle peut être agréable !)
+
+
+
+etienne.kronert@inria.fr
+Tu as a ta disposition:
+1) Une procédure d'ouverture de porte
+2) Une carte de la maison
+3) Une méthode pour récupérer un objet
+4) Un algorithme de reconnaissance d'objet
+5) Des jambes pour se déplacer entre deux endroit
+6) Un atlas de géographie
+7) Une calculatrice
+Je suis dans mon canapé, dans le salon. Je te demande, "peux tu aller me cherche autant bières,  qui se trouve dans le frigo, dans la cuisine, qu'il y a d'habitants en France."
+Donne moi le plan d'action qui peut permettre de réaliser cette requète avec ce que tu as à ta disposition.
+(n'exécute pas le plan)
+
+Utiliser la procédure d'ouverture de porte pour ouvrir la porte du salon qui mène à la cuisine.
+Utiliser les jambes pour se déplacer de la pièce du salon à la cuisine en suivant les instructions de la carte de la maison.
+Ouvrir le frigo et utiliser l'algorithme de reconnaissance d'objet pour compter le nombre de bières dans le frigo.
+Si le nombre de bières est inférieur au nombre d'habitants en France, utiliser la calculatrice pour calculer le nombre de bières manquantes.
+Utiliser la méthode pour récupérer un objet pour prendre autant de bières manquantes que nécessaire pour atteindre le nombre d'habitants en France.
+Si on ne connaît pas le nombre d'habitants en France, utiliser l'atlas de géographie pour le trouver.
+Fermer le frigo et retourner dans le salon en utilisant les jambes et la carte de la maison.
+Boire les bières. (Note: cette étape n'est pas indispensable pour répondre à la requête, mais elle peut être agréable !)
+
+
+
+etienne.kronert@inria.fr
+Tu as a ta disposition:
+1) Une procédure d'ouverture de porte
+2) Une carte de la maison
+3) Une méthode pour récupérer un objet
+4) Un algorithme de reconnaissance d'objet
+5) Des jambes pour se déplacer entre deux endroit
+6) Un atlas de géographie
+7) Une calculatrice
+Je suis dans mon canapé, dans le salon. Je te demande, "peux tu aller me cherche autant bières,  qui se trouve dans le frigo, dans la cuisine, qu'il y a d'habitants en France diviser par le nombre d'habitants en Belgique."
+Donne moi le plan d'action qui peut permettre de réaliser cette requète avec ce que tu as à ta disposition.
+(n'exécute pas le plan)
+
+Utiliser la procédure d'ouverture de porte pour ouvrir la porte du salon qui mène à la cuisine.
+Utiliser les jambes pour se déplacer de la pièce du salon à la cuisine en suivant les instructions de la carte de la maison.
+Ouvrir le frigo et utiliser l'algorithme de reconnaissance d'objet pour compter le nombre de bières dans le frigo.
+Si le nombre de bières est inférieur au nombre d'habitants en France divisé par le nombre d'habitants en Belgique, utiliser la calculatrice pour calculer le nombre de bières manquantes.
+Utiliser la méthode pour récupérer un objet pour prendre autant de bières manquantes que nécessaire pour atteindre le nombre d'habitants en France divisé par le nombre d'habitants en Belgique.
+Si on ne connaît pas le nombre d'habitants en France ou en Belgique, utiliser l'atlas de géographie pour les trouver.
+Fermer le frigo et retourner dans le salon en utilisant les jambes et la carte de la maison.
+Boire les bières. (Note: cette étape n'est pas indispensable pour répondre à la requête, mais elle peut être agréable !)
