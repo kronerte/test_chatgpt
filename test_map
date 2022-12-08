@@ -1,0 +1,15 @@
+Imagine you are a caracter living in this map.
+*OOO**
+BO*OOE
+******
+You begin in B. You should go in E. * are wall. O are path.
+How do you go from B to E, only passing throw O and never going throw * ?
+
+To go from B to E, you would need to follow the path below:
+
+From B, go right to reach the first O.
+From there, go down to reach the second O.
+From there, go right again to reach the third O.
+From there, go up to reach the fourth O.
+From there, go right to reach E.
+You would need to move right, down, right, up, and right again to reach E without passing through any of the walls (*). You would only be able to move along the path indicated by the O's.
